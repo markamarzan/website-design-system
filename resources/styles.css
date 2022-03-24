@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: greycliff-cf, sans-serif;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fcf8f2;
+  z-index: 999;
+}
+
+#logo {
+  color: #0A4D1D;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: 5px;
+}
+
+li {
+  display: inline;
+  margin: 30px;
+}
+
+li a {
+  text-decoration: none;
+  color: #E26D00;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  cursor: pointer;
+  color: #EBBC90;
+}
+
+li a:active {
+  text-decoration: underline;
+}
+
+.banner {
+  background-image: url('./images/architecture.jpg');
+  background-position: center top;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+}
+
+#banner-text {
+  position: relative;
+  top: 350px;
+  display: inline-block;
+  margin: 0;
+  padding: 0px 20px;
+  color: #E26D00;
+  background-color: #fcf8f2ad;
+  font-size: 60px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.section {
+  height: auto;
+  margin: 0 auto;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 5%;
+}
+
+#colors {
+  background-color: #fcf8f2;
+}
+
+#colors h2 {
+  color: #0A4D1D;
+}
+
+.color {
+  display: inline-block;
+  width: 250px;
+}
+
+h3 {
+  color: #46423cc4;
+  font-weight: 300;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  border-radius: 5px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#moonlit-blue {
+  background-color: #273D64;
+}
+
+#orange-creme {
+  background-color: #FFC8AA; 
+}
+
+#evergreen {
+  background-color: #0A4D1D;
+}
+
+#strawberry-milk {
+  background-color: #FFDBD2;
+}
+
+#typography {
+  background-color: #273D64;
+}
+
+#typography h2 {
+  color: #FFC8AA;
+}
+
+.font-face {
+  height: 200px;
+  width: 330px;
+  margin: 30px;
+  display: inline-table;
+  border-radius: 30px;
+  background-color: #fcf8f2;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+#playfair-display {
+  font-family: 'Playfair Display', serif;
+}
+
+#roboto-mono {
+  font-family: "Roboto Mono", 'Courier New', 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+#styling {
+  background-color: #fcf8f2;
+}
+
+#styling h2 {
+  color: #0A4D1D;
+}
+
+.style {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  vertical-align: center;
+  align-items: center;
+}
+
+.ruleset {
+  font-family: "Roboto Mono", 'Courier New', Courier, monospace;
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 20px;
+  background-color: #e8dfd3;
+}
+
+.element {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#h1 {
+  font-family: greycliff-cf, sans-serif;
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  color:#E26D00;
+}
+
+#h2 {
+  font-family: greycliff-cf, sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
