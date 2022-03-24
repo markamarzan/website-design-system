@@ -1,0 +1,1 @@
+This is one of Codecademy's Challenge Projects for Improving CSS Styling topic. In this project, I got to use everything I've learned in my CSS and HTML toolbox to build this design system. The styling outlined in this system will be used accross many future projects.
