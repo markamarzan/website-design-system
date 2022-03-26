@@ -165,7 +165,6 @@ h3 {
   text-align: center;
 }
 
-
 #playfair-display {
   font-family: 'Playfair Display', serif;
 }
@@ -173,6 +172,14 @@ h3 {
 #roboto-mono {
   font-family: "Roboto Mono", 'Courier New', 'Courier New', Courier, monospace;
   font-size: 16px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 #styling {
@@ -223,3 +230,4 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+
